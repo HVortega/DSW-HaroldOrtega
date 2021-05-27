@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" content="IE_edge">        
+        <link rel="stylesheet" href="css/Estilos.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+        <script src="main.js"></script> 
+    </head> 
+    <body>
+        <nav>            
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Temas de Interés</a>       
+                    <ul class="dropdown">
+                        <li><a href="Tema1.html">Las Etiquetas Semánticas</a></li>
+                        <li><a href="Tema2.html">Las Listas</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">Recursos Digitales</a>
+                    <ul class="dropdown">
+                        <li><a href="RGEnlaces.html">Ejemplo de Enlaces (Video)</a></li>
+                        <li><a href="TimeLine.html">Time Line (Facebook)</a></li>
+                    </ul>        
+                </li>
+
+                <li><a href="#">Aprendizaje</a>
+                    <ul class="dropdown">
+                        <li><a href="Aprendizaje_1.html">Sitios Responsivos & Media Queries</a></li>
+                        <li><a href="Aprendizaje_2.html">Medidas para mejorar el SEO</a>
+                    </ul>    
+                </li>
+
+                <li><a href="Bibliografia.html">Referencias Bibliográficas</a></li>
+            </ul>
+        </nav>        
+
+        <header>
+            <h1 class="Titulo_1">SITIOS RESPONSIVOS CON MEDIA QUERIES</h1>
+        </header>
+            <p>Algún cambio es necesario en nuestra metodología de diseño, ya que un diseño líquido sencillamente
+               no soporta ser “estirado" desde un mínimo de 320px hasta varios miles de pixeles de ancho.
+               por otro lado, si en lugar de darle ancho líquido, le definiéramos los anchos en pixeles, 
+               el efecto sería igual de negativo: el sitio se “miniaturizará", siendo muy incómodo navegarlo, 
+               dependiendo del uso constante de zoom en ambos sentidos y debiendo realizar desplazamientos 
+               horizontales. Algo así como sobrevolar la página web en helicóptero, a la manera de cómo 
+               visualizamos un mapa..</p>
+        <div class="Contenedor">
+            <section>          
+                <strong><h2>El diseño como problema y como solución</h2></strong>
+                <ul><li>Las páginas web por naturaleza son “adaptables" desde el nacimiento mismo de la Web. 
+                    Para comprobar que esta hipótesis es correcta, pensemos en un archivo HTML correctamente 
+                    estructurado, con encabezados, párrafos y listas. Pero sin diseño. 
+                    Es decir, un archivo HTML al que no le vinculamos ninguna hoja de estilos, 
+                    al que no lo maquetamos..</li><br>
+    
+                <strong><h2>¿Qué son las Media Queries?</h2></strong>
+                <li> se denomina Media Queries a la posibilidad de definir condiciones que deben 
+                    cumplirse para que el navegador procese algunas reglas de estilo específicas 
+                    dentro de nuestra hoja CSS..</li><br>
+                <li> Mediante el uso de esta técnica, se intenta optimizar la experiencia de uso 
+                    de un sitio web para adaptar el diseño al contexto. En este caso, 
+                    sería un tamaño variable de pantallas el que le brinda un contexto muy particular 
+                    a los contenidos, limitando los diseños posibles.</li><br>
+
+                <strong><h2>Diseño web adaptable/sensible/responsive</h2></strong>
+                <li> Esta técnica llamada media queries, que nos permite condicionar la lectura de distintos 
+                    estilos, es la que nos abre la posibilidad a un nuevo enfoque de diseño web, 
+                    que resulta ideal para dar soporte a la enorme diversidad de dispositivos existentes 
+                    actualmente. Este enfoque es conocido como “diseño web adaptable” o “diseño web sensible” 
+                    (responsive web design, originalmente).</li><br>
+                <li> En pantallas grandes (una media querie de “Mayor a 1024px”, por ejemplo) 
+                    podríamos hacer flotar 3 columnas, mientras que en una tableta 
+                    (una media querie de “Mayor a 800px”, por ejemplo) solo dejaremos flotar 2 columnas, 
+                    y en el caso de pantallas más angostas (celulares, sin media queries) 
+                    anularemos todos los flotados, reduciendo la cantidad de columnas a una sola 
+                    (“apilando” los contenidos uno debajo del otro)..</li><br>
+                </ul>            
+            </section>
+            <Aside>
+                <br><br>
+                <img src="Imágenes/Resp-Adap.jpg" alt="Imagen">                 
+            </Aside>        
+        </div>            
+        <footer> 
+            <br><br><br><br><br>
+            Harold Vicente Ortega
+            <a href="hvortega@gmail.com">hvortega@gmail.com/</a>
+        </footer> 
+    </body>
+</html>

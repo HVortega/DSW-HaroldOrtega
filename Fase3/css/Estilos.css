@@ -1,0 +1,47 @@
+.Titulo_1{
+    Color:lightgreen;
+    background-color:darkolivegreen;
+    text-align: center;
+}
+.Titulo_2{
+    Color: Black;
+    background-color:lightgrey;
+    text-align:center;
+} 
+.Parrafo{
+    Color: Black;
+    background-color:white;
+    text-align:center;
+}
+.Contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    Color: Black;
+    background-color:bisque;
+}
+nav{         
+    Color: brown;
+    background-color:rgb(214, 208, 208);     
+} 
+section{
+    float: left;
+    text-align: justify;
+    width: 45%;
+    height: 70%;
+    background-color:white;
+}
+aside{
+    float: left;
+    text-align: center;  
+    width: 55%;
+    Color: Red;
+    background-color:white
+}
+footer{
+    text-align: center;
+    Color: Grey;
+    background-color:white;
+}

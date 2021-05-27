@@ -1,0 +1,89 @@
+.menu {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    padding: 3px;
+    color: #fff;
+    background: white;
+}
+.menu li {    
+    width: 100%;
+    text-align: center;
+}    
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #0b551e;
+    height: 25px;
+    text-decoration: none;
+}    
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+    display: block;
+}
+.menu a:hover {
+    background: rgb(129, 204, 148);
+    color: #fff;    
+}    
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+.Titulo_1{
+    Color:lightgreen;
+    background-color:darkolivegreen;
+    text-align: center;
+}
+.Titulo_2{
+    Color: Black;
+    background-color:lightgrey;
+    text-align:center;
+} 
+.Parrafo{
+    Color: Black;
+    background-color:white;
+    text-align:center;
+}
+.Contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    Color: Black;
+    background-color:bisque;
+}
+nav{         
+    Color: brown;
+    background-color:rgb(214, 208, 208);     
+} 
+section{
+    float: left;
+    text-align: justify;
+    width: 45%;
+    height: 70%;
+    background-color:white;
+}
+aside{
+    float: left;
+    text-align: center;  
+    width: 55%;
+    Color: Red;
+    background-color:white
+}
+footer{
+    text-align: center;
+    Color: Grey;
+    background-color:white;
+}
